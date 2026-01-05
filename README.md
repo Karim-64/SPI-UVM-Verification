@@ -97,4 +97,3 @@ The project uses `do` files for automation in QuestaSim.
     ```
 
 ---
-*This project was completed as part of the Digital Verification curriculum (2024-2025).*
