@@ -1,0 +1,89 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /spi_slave_top/DUT/spi_sva_inst
+=== Design Unit: work.spi_slave_sva
+=================================================================================
+
+Directive Coverage:
+    Directives                       5         0         5     0.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/spi_slave_top/DUT/spi_sva_inst/cover__p_reset 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(37)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_rd_data 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(31)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_rd_add 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(24)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_wr_data 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(18)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_wr_add 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(12)
+                                                                                 0 ZERO      
+
+=================================================================================
+=== Instance: /spi_slave_top/DUT
+=== Design Unit: work.SLAVE
+=================================================================================
+
+Directive Coverage:
+    Directives                       3         0         3     0.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/spi_slave_top/DUT/cover__p_to_idle_trans 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(158)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/cover__chk_to_states_trans 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(150)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/cover__p_idle_chk_trans 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(143)
+                                                                                 0 ZERO      
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/spi_slave_top/DUT/cover__p_to_idle_trans 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(158)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/cover__chk_to_states_trans 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(150)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/cover__p_idle_chk_trans 
+                                         SLAVE  Verilog  SVA  SPI_slave.sv(143)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_reset 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(37)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_rd_data 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(31)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_rd_add 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(24)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_wr_data 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(18)
+                                                                                 0 ZERO      
+/spi_slave_top/DUT/spi_sva_inst/cover__p_rx_valid_wr_add 
+                                         spi_slave_sva Verilog  SVA  SPI_slave_sva.sv(12)
+                                                                                 0 ZERO      
+
+TOTAL DIRECTIVE COVERAGE: 0.00%  COVERS: 8
+
+Total Coverage By Instance (filtered view): 0.00%
+
